@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <title>Todo list app</title>
+</head>
+
+<body>
+  <header class="header">
+    <input class="header-input" id="item" type="text" placeholder="Enter an activity">
+    <button class="header-btn" id="add">
+      <svg class="btn-img" viewBox="0 0 32 32">
+        <path d="M31 12h-11v-11c0-0.552-0.448-1-1-1h-6c-0.552 0-1 0.448-1 1v11h-11c-0.552 0-1 0.448-1 1v6c0 0.552 0.448 1 1 1h11v11c0 0.552 0.448 1 1 1h6c0.552 0 1-0.448 1-1v-11h11c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1z"></path>
+      </svg>
+    </button>
+  </header>
+
+  <main class="main">
+    <ul class="main-todo" id="todo"></ul>
+    <ul class="main-completed" id="completed"></ul>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
